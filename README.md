@@ -8,11 +8,12 @@ Built an awesome app that has a slick, custom UI? Want to ease the friction a fi
 
 This little widget allows you to pass in specific UI elements that you may find useful to highlight along with a useful tip. You can choose to display a single tip, or queue up multiple ones.
 
-* Allocate and add it to your view like anything else
-LCTipsView *someTips = LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)] autorelease];
-[self.view addSubview:someTips];
+Allocate and add it to your view like anything else
 
-* Queue up tips
+	LCTipsView *someTips = LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)] autorelease];
+	[self.view addSubview:someTips];
+
+Queue up tips
 
 	[someTips addTip:@"Type stuff here to search" forView:searchBar];
 	
@@ -20,12 +21,12 @@ LCTipsView *someTips = LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame
 	
 	[someTips addTip:@"Or just parts of it like this kitteh" forView:limeCatImage];
 
-* Show it to them!
+Show it to them!
 
 	[someTips showNextTip];
 
-* Customize the overlay or the tips bubble by accessing the overlay and tipsLabel properties
+Customize the overlay or the tips bubble by accessing the overlay and tipsLabel properties
 
-* For more refer to the header file and the example project!
+For more refer to the header file and the example project!
 
 That's it!
