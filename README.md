@@ -1,8 +1,12 @@
 # LCTipsView
 
-## Introduction
+## Why?
 
 Built an awesome app that has a slick, custom UI? Want to ease the friction a first time user may have when using your app? This is a general purpose tips view that emulates what you would commonly find in apps that find it necessary to give a tour to a first time user. (games, social apps with a more complex interface...etc.) A great first time user experience could make a difference between one coming back for more, or uninstalling your app!
+
+## Installation
+
+Copy LCTipsView.h and LCTipsView.m to your project. Import it to a UIViewController you want to use it in. Done!
 
 ## Usage
 
@@ -27,6 +31,6 @@ Show it to them!
 
 Customize the overlay or the tips bubble by accessing the overlay and tipsLabel properties
 
-For more refer to the header file and the example project!
+For more refer to the header file.
 
 That's it!
