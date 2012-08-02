@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C9EA30D15C9FDA500228235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EA30C15C9FDA500228235 /* UIKit.framework */; };
+		7C9EA30F15C9FDA500228235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EA30E15C9FDA500228235 /* Foundation.framework */; };
+		7C9EA31115C9FDA500228235 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9EA31015C9FDA500228235 /* CoreGraphics.framework */; };
+		7C9EA31715C9FDA500228235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EA31515C9FDA500228235 /* InfoPlist.strings */; };
+		7C9EA31915C9FDA500228235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA31815C9FDA500228235 /* main.m */; };
+		7C9EA31D15C9FDA500228235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA31C15C9FDA500228235 /* AppDelegate.m */; };
+		7C9EA32015C9FDA500228235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA31F15C9FDA500228235 /* ViewController.m */; };
+		7C9EA32315C9FDA500228235 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EA32115C9FDA500228235 /* ViewController_iPhone.xib */; };
+		7C9EA32615C9FDA500228235 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EA32415C9FDA500228235 /* ViewController_iPad.xib */; };
+		7C9EA32D15C9FEC100228235 /* lime-cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C9EA32C15C9FEC100228235 /* lime-cat.jpeg */; };
+		7C9EA33015C9FFC900228235 /* LCTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA32F15C9FFBD00228235 /* LCTipsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C9EA30815C9FDA500228235 /* LCTipsViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCTipsViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9EA30C15C9FDA500228235 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C9EA30E15C9FDA500228235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C9EA31015C9FDA500228235 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C9EA31415C9FDA500228235 /* LCTipsViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LCTipsViewExample-Info.plist"; sourceTree = "<group>"; };
+		7C9EA31615C9FDA500228235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9EA31815C9FDA500228235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C9EA31A15C9FDA500228235 /* LCTipsViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCTipsViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		7C9EA31B15C9FDA500228235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C9EA31C15C9FDA500228235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C9EA31E15C9FDA500228235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C9EA31F15C9FDA500228235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C9EA32215C9FDA500228235 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7C9EA32515C9FDA500228235 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7C9EA32C15C9FEC100228235 /* lime-cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lime-cat.jpeg"; sourceTree = "<group>"; };
+		7C9EA32E15C9FFBD00228235 /* LCTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTipsView.h; sourceTree = "<group>"; };
+		7C9EA32F15C9FFBD00228235 /* LCTipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTipsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C9EA30515C9FDA500228235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9EA30D15C9FDA500228235 /* UIKit.framework in Frameworks */,
+				7C9EA30F15C9FDA500228235 /* Foundation.framework in Frameworks */,
+				7C9EA31115C9FDA500228235 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C9EA2FD15C9FDA500228235 = {
+			isa = PBXGroup;
+			children = (
+				7C9EA31215C9FDA500228235 /* LCTipsViewExample */,
+				7C9EA30B15C9FDA500228235 /* Frameworks */,
+				7C9EA30915C9FDA500228235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C9EA30915C9FDA500228235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EA30815C9FDA500228235 /* LCTipsViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C9EA30B15C9FDA500228235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EA30C15C9FDA500228235 /* UIKit.framework */,
+				7C9EA30E15C9FDA500228235 /* Foundation.framework */,
+				7C9EA31015C9FDA500228235 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9EA31215C9FDA500228235 /* LCTipsViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EA31B15C9FDA500228235 /* AppDelegate.h */,
+				7C9EA31C15C9FDA500228235 /* AppDelegate.m */,
+				7C9EA31E15C9FDA500228235 /* ViewController.h */,
+				7C9EA31F15C9FDA500228235 /* ViewController.m */,
+				7C9EA32115C9FDA500228235 /* ViewController_iPhone.xib */,
+				7C9EA32415C9FDA500228235 /* ViewController_iPad.xib */,
+				7C9EA32E15C9FFBD00228235 /* LCTipsView.h */,
+				7C9EA32F15C9FFBD00228235 /* LCTipsView.m */,
+				7C9EA31315C9FDA500228235 /* Supporting Files */,
+			);
+			path = LCTipsViewExample;
+			sourceTree = "<group>";
+		};
+		7C9EA31315C9FDA500228235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9EA32C15C9FEC100228235 /* lime-cat.jpeg */,
+				7C9EA31415C9FDA500228235 /* LCTipsViewExample-Info.plist */,
+				7C9EA31515C9FDA500228235 /* InfoPlist.strings */,
+				7C9EA31815C9FDA500228235 /* main.m */,
+				7C9EA31A15C9FDA500228235 /* LCTipsViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C9EA30715C9FDA500228235 /* LCTipsViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9EA32915C9FDA500228235 /* Build configuration list for PBXNativeTarget "LCTipsViewExample" */;
+			buildPhases = (
+				7C9EA30415C9FDA500228235 /* Sources */,
+				7C9EA30515C9FDA500228235 /* Frameworks */,
+				7C9EA30615C9FDA500228235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCTipsViewExample;
+			productName = LCTipsViewExample;
+			productReference = 7C9EA30815C9FDA500228235 /* LCTipsViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C9EA2FF15C9FDA500228235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joshua Wu";
+			};
+			buildConfigurationList = 7C9EA30215C9FDA500228235 /* Build configuration list for PBXProject "LCTipsViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C9EA2FD15C9FDA500228235;
+			productRefGroup = 7C9EA30915C9FDA500228235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C9EA30715C9FDA500228235 /* LCTipsViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C9EA30615C9FDA500228235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9EA31715C9FDA500228235 /* InfoPlist.strings in Resources */,
+				7C9EA32315C9FDA500228235 /* ViewController_iPhone.xib in Resources */,
+				7C9EA32615C9FDA500228235 /* ViewController_iPad.xib in Resources */,
+				7C9EA32D15C9FEC100228235 /* lime-cat.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C9EA30415C9FDA500228235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9EA31915C9FDA500228235 /* main.m in Sources */,
+				7C9EA31D15C9FDA500228235 /* AppDelegate.m in Sources */,
+				7C9EA32015C9FDA500228235 /* ViewController.m in Sources */,
+				7C9EA33015C9FFC900228235 /* LCTipsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C9EA31515C9FDA500228235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9EA31615C9FDA500228235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C9EA32115C9FDA500228235 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9EA32215C9FDA500228235 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7C9EA32415C9FDA500228235 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9EA32515C9FDA500228235 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C9EA32715C9FDA500228235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C9EA32815C9FDA500228235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C9EA32A15C9FDA500228235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCTipsViewExample/LCTipsViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LCTipsViewExample/LCTipsViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C9EA32B15C9FDA500228235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCTipsViewExample/LCTipsViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LCTipsViewExample/LCTipsViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C9EA30215C9FDA500228235 /* Build configuration list for PBXProject "LCTipsViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9EA32715C9FDA500228235 /* Debug */,
+				7C9EA32815C9FDA500228235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9EA32915C9FDA500228235 /* Build configuration list for PBXNativeTarget "LCTipsViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9EA32A15C9FDA500228235 /* Debug */,
+				7C9EA32B15C9FDA500228235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C9EA2FF15C9FDA500228235 /* Project object */;
+}
