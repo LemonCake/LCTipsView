@@ -14,13 +14,13 @@ LCTipsView *someTips = LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame
 
 * Queue up tips
 
-	[someTips addTip:@"Type stuff here to search" forView:searchBar];
-	[someTips addTip:@"Highlight the whole container!" forView:containerView];
-	[someTips addTip:@"Or just parts of it like this kitteh" forView:limeCatImage];
+		[someTips addTip:@"Type stuff here to search" forView:searchBar];
+		[someTips addTip:@"Highlight the whole container!" forView:containerView];
+		[someTips addTip:@"Or just parts of it like this kitteh" forView:limeCatImage];
 
 * Show it to them!
 
-	[someTips showNextTip];
+		[someTips showNextTip];
 
 * Customize the overlay or the tips bubble by accessing the overlay and tipsLabel properties
 
