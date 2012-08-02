@@ -14,15 +14,13 @@ This little widget allows you to pass in specific UI elements that you may find 
 
 Allocate and add it to your view like anything else
 
-	LCTipsView *someTips = LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)] autorelease];
+	LCTipsView *someTips = [[[LCTipsView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)] autorelease];
 	[self.view addSubview:someTips];
 
 Queue up tips
 
 	[someTips addTip:@"Type stuff here to search" forView:searchBar];
-	
 	[someTips addTip:@"Highlight the whole container!" forView:containerView];
-	
 	[someTips addTip:@"Or just parts of it like this kitteh" forView:limeCatImage];
 
 Show it to them!
